@@ -1,0 +1,122 @@
+2018-01-28 22:10:19,073 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 144, in search
+    if total > page * current_app.config['POSTS_PER_PAGE'] else None
+TypeError: '>' not supported between instances of 'dict' and 'int'
+2018-01-28 22:10:23,265 INFO: wifi flask startup [in /Users/sergiiholodnuk/wifi_flask/app/__init__.py:76]
+2018-01-28 22:10:26,205 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 142, in search
+    current_app.config['POSTS_PER_PAGE'])
+  File "/Users/sergiiholodnuk/wifi_flask/app/models.py", line 86, in search
+    when.append((ids[i], i))
+KeyError: 0
+2018-01-28 22:10:26,227 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 142, in search
+    current_app.config['POSTS_PER_PAGE'])
+  File "/Users/sergiiholodnuk/wifi_flask/app/models.py", line 86, in search
+    when.append((ids[i], i))
+KeyError: 0
+2018-01-28 22:11:03,139 INFO: wifi flask startup [in /Users/sergiiholodnuk/wifi_flask/app/__init__.py:76]
+2018-01-28 22:15:44,037 INFO: wifi flask startup [in /Users/sergiiholodnuk/wifi_flask/app/__init__.py:76]
+2018-01-28 22:19:53,010 INFO: wifi flask startup [in /Users/sergiiholodnuk/wifi_flask/app/__init__.py:76]
+2018-01-28 22:19:56,598 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 144, in search
+    if total > page * current_app.config['POSTS_PER_PAGE'] else None
+TypeError: '>' not supported between instances of 'list' and 'int'
+2018-01-28 22:19:56,642 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 144, in search
+    if total > page * current_app.config['POSTS_PER_PAGE'] else None
+TypeError: '>' not supported between instances of 'list' and 'int'
+2018-01-28 22:19:56,781 ERROR: Exception on /search [GET] [in /Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py:1560]
+Traceback (most recent call last):
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/sergiiholodnuk/wifi_flask/venv/lib/python3.6/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/sergiiholodnuk/wifi_flask/app/main/routes.py", line 144, in search
+    if total > page * current_app.config['POSTS_PER_PAGE'] else None
+TypeError: '>' not supported between instances of 'list' and 'int'
